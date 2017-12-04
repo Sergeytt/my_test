@@ -1,4 +1,10 @@
+dir = "/home/sergey/new"
 import os
 os.path.basename()
 os.getcwd()
+
+new = os.path.listdir(dir)
+
+for item in new:
+	print(item)
 
