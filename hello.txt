@@ -10,3 +10,5 @@ new = os.path.listdir(dir)
 for item in new:
 	print(item)
 
+os.path.dirname(dir)
+
