@@ -1,8 +1,10 @@
 dir = "/home/sergey/new"
 import os
+import sys
+
 os.path.basename()
 os.getcwd()
-
+test = sys.argv()
 new = os.path.listdir(dir)
 
 for item in new:
